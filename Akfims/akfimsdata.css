@@ -1,0 +1,344 @@
+body{
+  background-color:white;
+}
+section
+{
+  margin-top:3em;
+  /*margin-bottom: 3em;*/
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+}
+.rectangle
+{
+	width: 300px;
+	height: 200px;
+	position:relative;
+	display:inline-block;
+		
+}
+.rectangle h3
+{
+	 position: absolute;
+  	 left: 65%;
+     top: 55%;
+  	 min-width: 100%;
+  	 min-height: 100%;
+  	 height: 100%;
+	 font-size:25px;
+	 transform: translate(-50%, -50%);
+	 z-index: 1;
+	 color: green;
+}
+.rectangle p
+{
+	 position: absolute;
+  	 left: 65%;
+     top: 65%;
+  	 min-width: 100%;
+  	 min-height: 100%;
+  	 height: 100%;
+	 font-size:38px;
+	 font-weight: 10px;
+	 transform: translate(-50%, -50%);
+	 z-index: 1;
+	 color: red;
+}
+
+
+.rectangle#rectangle1
+{
+	background: white;
+}
+.rectangle#rectangle2
+{
+	background: white;
+}
+.rectangle#rectangle3
+{
+	background: white;
+}
+.rectangle#rectangle4
+{
+	background: white;
+}
+.rectangle#rectangle5
+{
+	background: white;
+}
+.rectangle#rectangle6
+{
+	background: white;
+}
+.hexagon 
+{
+	width: 200px;
+	height:220px;
+	background: white;
+	position: relative;
+  display:inline-block;
+  margin:1.0em;
+  overflow: hidden;
+}
+.hexagon img
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.hexagon:before 
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-bottom: 50px solid transparent;
+  z-index: 2;
+}
+.hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-top: 50px solid transparent;
+  z-index: 2;
+}
+.row
+{
+margin-top:-2.8em;
+}
+.hexagon#hexagon1
+{
+  background-color: white;
+}
+.hexagon#hexagon1:before
+{
+  content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-bottom: 50px solid transparent;
+  z-index: 2;
+}
+.hexagon#hexagon1:after
+{
+  content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-top: 50px solid transparent;
+  z-index: 2;
+}
+.hexagon#hexagon2
+{
+  background-color: white;
+}
+.hexagon#hexagon2:before
+{
+  content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-bottom: 50px solid transparent;
+  z-index: 2;
+}
+.hexagon#hexagon2:after
+{
+  content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-top: 50px solid transparent;
+  z-index: 2;
+}
+/*.hexagon#hexagon2{
+  background-color: white;
+}
+.hexagon#hexagon2:before{
+  content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-bottom: 50px solid transparent;
+  z-index: 2;
+}
+.hexagon#hexagon2:after{
+   content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-top: 50px solid transparent;
+  z-index: 2;
+}*/
+.hexagon#hexagon3{
+  background-color: white;
+}
+.hexagon#hexagon3:before{
+   content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-bottom: 50px solid transparent;
+  z-index: 2;
+}
+.hexagon#hexagon3:after{
+  content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-top: 50px solid transparent;
+  z-index: 2;
+}
+.hexagon#hexagon4{
+  background-color: white;
+}
+.hexagon#hexagon4:before{
+  content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-bottom: 50px solid transparent;
+  z-index: 2;
+}
+.hexagon#hexagon4:after{
+  content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-top: 50px solid transparent;
+  z-index: 2;
+}
+.hexagon#hexagon5{
+  background-color: white;
+}
+.hexagon#hexagon5:before{
+  content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-bottom: 50px solid transparent;
+  z-index: 2;
+}
+.hexagon#hexagon5:after{
+   content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-top: 50px solid transparent;
+  z-index: 2;
+}
+.hexagon#hexagon6{
+  background-color: white;
+}
+.hexagon#hexagon6:before{
+  content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-bottom: 50px solid transparent;
+  z-index: 2;
+}
+.hexagon#hexagon6:after{
+ content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-top: 50px solid transparent;
+  z-index: 2;
+}
+.hexagon#hexagon7{
+  background-color: white;
+}
+.hexagon#hexagon7:before{
+ content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-bottom: 50px solid transparent;
+  z-index: 2;
+}
+.hexagon#hexagon7:after{
+  content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 100px solid white;
+	border-left: 100px solid white;
+	border-top: 50px solid transparent;
+  z-index: 2;
+}
